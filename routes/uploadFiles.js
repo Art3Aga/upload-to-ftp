@@ -9,8 +9,8 @@ const ftp = require('ftp');
 
 // configuracion básica para conectarse al servidor ftp
 const configFTP = {
-  host: "192.168.1.25", // direccion ip de servidor ftp local
-  user: "aarteaga@gbm.net", // en este caso como es local, el usuario es el de windows
+  host: "", // direccion ip de servidor ftp local
+  user: "", // en este caso como es local, el usuario es el de windows
   password: "", // clave de usuario de windows
   port: 21, // depende del puerto que hayamos colocado en la creacion del servidor ftp local
 };
